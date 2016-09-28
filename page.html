@@ -10,9 +10,10 @@
       function sayHello() {
         document.getElementById("hello").innerHTML = "Hiya, buddy!";
       }
-      function sayGoodbye(){
-        document.getElementById("goodbye").innerHTML = "See ya!";
+      function saybye(){
+        document.getElementById("goodbye").innerHTML = "Good Bye";
       }
+
     </script>
   </head>
   <body>
@@ -20,7 +21,7 @@
       <button type="button" class="btn btn-default" onclick="sayHello();">
         Sign in
       </button>
-      <button type="button" class="btn btn-default">
+      <button type="button" class="btn btn-default" onclick="saybye();">
         Sign out
       </button>
       <div class="alert alert-success" role="alert" id="hello">
